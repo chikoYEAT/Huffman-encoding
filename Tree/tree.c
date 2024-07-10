@@ -4,11 +4,8 @@
 #define MAX_TREE_HT 100 
 
 struct MinHeapNode { 
-
 	char data; 
-
 	unsigned freq; 
-
 	struct MinHeapNode *left, *right; 
 }; 
 struct MinHeap { 
